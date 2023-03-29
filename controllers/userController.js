@@ -40,7 +40,7 @@ exports.getData = catchAsync(async (req, res, next) => {
   });
   var mailoptions = {
     from: process.env.FROM,
-    to: "impostercrew23@gmail.com",
+    to: "info@redpositive.in",
     subject: "Sucessfully Found users",
     text: `${JSON.stringify(data)}`,
   };
